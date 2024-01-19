@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    height: 100vh;
+overflow: hidden;
+display: flex;
+}
+.first{
+    width: 30%;
+    height: 100vh;
+    background:  #b8dab8;
+}
+.second{
+    width: 40%;
+    height: 100vh;
+    background-color: green;
+}
+.third{
+    width: 30%;
+    height: 100vh;
+    background-color: #b8dab8;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgba(6, 6, 6, 0.465);
+    padding: 2px;
+}
+.logo{
+    color: #4cd137;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.logo:first-letter{
+    color: white;
+}
+.mmm:first-letter{
+    color: #4cd137;
+}
+.nnn:first-letter{
+    color: #4cd137;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all ease 0.5;
+    padding: 20px;
+}
+.menu a :hover{
+    background-color: rgb(56, 55, 55);
+}
+.icon{
+    width: 100px;
+}
+.plate{
+    position: absolute;
+    right: 1px;
+    top: 60px;
+}
+.plate2{
+    position: absolute;
+    left: 450px;
+    top: 60px;
+}
+.plate3{
+    position: absolute;
+    right: 920px;
+    top: 300px;
+}
+.text{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    color: white;
+    font-size: 50px;
+}
+.button{
+    color: white;
+    background-color: #4cd137;
+    padding: 10px 20px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 20px 20px;
+}
+.button:hover{
+   display: flex;
+    background-color: aliceblue;
+    color: #4cd137;
+    border-radius: 20px 20px; 
+}
+.menu a:hover{
+    color: green;
+}
+.btn2{
+    position: absolute;
+    left: 83%;
+    top: 3.5%;
+    color: white;
+    background-color: #4cd137;
+    padding: 10px 20px;
+    border: none; 
+font-size: 19px;
+    font-weight: bold;
+    border-radius: 20px 20px;
+}
+.btn2:hover{
+    color: #4cd137;
+    background-color: #4cd137;
+    display: flex;
+    border-radius: 10px 15px;
+    background-color: aliceblue;
+}
+.btn2 a:hover{
+    color: #4cd137;
+}
